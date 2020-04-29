@@ -1,2 +1,3 @@
 # nestjs-monorepo-sample
-NestJS Monorepo Sample
+NestJS Monorepo Sample  
+https://docs.nestjs.com/cli/monorepo
