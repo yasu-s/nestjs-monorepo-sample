@@ -10,7 +10,14 @@
     "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
-    "paths": {}
+    "paths": {
+      "@monorepo-lib/sample-lib": [
+        "libs/sample-lib/src"
+      ],
+      "@monorepo-lib/sample-lib/*": [
+        "libs/sample-lib/src/*"
+      ]
+    }
   },
   "exclude": [
     "node_modules",
