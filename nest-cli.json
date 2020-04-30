@@ -25,6 +25,15 @@
       "compilerOptions": {
         "tsConfigPath": "apps/sample-project2/tsconfig.app.json"
       }
+    },
+    "sample-lib": {
+      "type": "library",
+      "root": "libs/sample-lib",
+      "entryFile": "index",
+      "sourceRoot": "libs/sample-lib/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/sample-lib/tsconfig.lib.json"
+      }
     }
   }
 }

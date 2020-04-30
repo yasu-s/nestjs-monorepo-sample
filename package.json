@@ -61,7 +61,12 @@
     "coverageDirectory": "./coverage",
     "testEnvironment": "node",
     "roots": [
-      "<rootDir>/apps/"
-    ]
+      "<rootDir>/apps/",
+      "<rootDir>/libs/"
+    ],
+    "moduleNameMapper": {
+      "@monorepo-lib/sample-lib/(.*)": "<rootDir>/libs/sample-lib/src/$1",
+      "@monorepo-lib/sample-lib": "<rootDir>/libs/sample-lib/src"
+    }
   }
 }
