@@ -1,3 +1,9 @@
 # nestjs-monorepo-sample
-NestJS Monorepo Sample  
-https://docs.nestjs.com/cli/monorepo
+
+## 概要
+
+- NestJS で Monorepo を使用したサンプルです。  
+
+## 参考URL
+
+- https://docs.nestjs.com/cli/monorepo
